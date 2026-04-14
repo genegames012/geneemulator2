@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+}
+
+/* CABECERA */
+.header {
+  background: #1a1a1a;
+  padding: 20px;
+  border-bottom: 2px solid #333;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header p {
+  margin: 5px;
+  color: #aaa;
+}
+
+/* BOTONES */
+.menu {
+  margin: 20px;
+}
+
+button {
+  padding: 12px 18px;
+  margin: 6px;
+  border: none;
+  background: #4c6fff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #6a85ff;
+  transform: scale(1.05);
+}
+
+/* PANTALLA DEL JUEGO */
+iframe {
+  width: 90%;
+  height: 500px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin-top: 10px;
+}
